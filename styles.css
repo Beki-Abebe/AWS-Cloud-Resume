@@ -3,7 +3,7 @@
     --secondary: #64ffda;
     --text: #8892b0;
     --light: #ccd6f6;
-    --bg: #0a192f;
+    --bg: hsl(216, 65%, 11%);
     --card-bg: #112240;
     --nav-bg: rgba(10, 25, 47, 0.85);
   }
@@ -105,12 +105,13 @@
   }
   .visitor-counter {
     margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    background: var(--card-bg);
-    border-radius: 1px;
-    color: #ccd6f6;
+    padding: 0.3rem 1rem;
+    background: #112240;
+    color: #5dffd9;
+    border-radius: 20px;
     font-size: 0.9rem;
     align-self: center;
+   text-align: center;
   }
   .verify-btn {
     display: inline-block;
