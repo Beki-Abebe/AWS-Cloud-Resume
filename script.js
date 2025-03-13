@@ -12,45 +12,20 @@
       // Existing smooth scroll code...
 
       // Visitor counter functionality
-      async function updateVisitorCount() {
-        try {
-          // Replace with your API Gateway URL
-          const response = await fetch("YOUR_API_GATEWAY_URL", {
-            method: "POST",
-          });
+      const counter = document.querySelector(".counter-number");
 
-          if (!response.ok) {
-            throw new Error("Network response was not ok");
-          }
-
-          const data = await response.json();
-          document.getElementById("visitor-count").textContent = data.count;
-        } catch (error) {
-          console.error("Error updating visitor count:", error);
+async function updateCounter() {
+    try {
+        let response = await fetch("https://xjjdobrbtui2vdcspj23jxa3du0qpjyd.lambda-url.af-south-1.on.aws/");
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
         }
-      }
+        let data = await response.json();
+        counter.innerHTML = `Views: ${data}`;
+    } catch (error) {
+        console.error('Error updating counter:', error);
+        counter.innerHTML = 'Views: --';
+    }
+}
 
-      // Call the function when page loads
-      document.addEventListener("DOMContentLoaded", updateVisitorCount);
-      // Add this to your JavaScript
-      async function updateVisitorCount() {
-        const counterElement = document.getElementById("visitor-count");
-        counterElement.textContent = "Loading...";
-
-        try {
-          const response = await fetch("YOUR_API_GATEWAY_URL", {
-            method: "POST",
-          });
-
-          if (!response.ok) {
-            throw new Error("Network response was not ok");
-          }
-
-          const data = await response.json();
-          counterElement.textContent = data.count;
-        } catch (error) {
-          console.error("Error updating visitor count:", error);
-          counterElement.textContent = "Error loading count";
-        }
-      }
-    
+document.addEventListener('DOMContentLoaded', updateCounter);

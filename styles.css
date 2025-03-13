@@ -1,9 +1,9 @@
 :root {
     --primary: #0a192f;
     --secondary: #64ffda;
-    --text: #8892b0;
-    --light: #ccd6f6;
-    --bg: hsl(216, 65%, 11%);
+    --text: #b7bcce;
+    --light: #dde3fa;
+    --bg: linear-gradient(135deg,hsl(216, 65%, 11%),hsl(216, 65%, 15%),hsl(216, 65%, 8%));
     --card-bg: #112240;
     --nav-bg: rgba(10, 25, 47, 0.85);
   }
@@ -103,7 +103,7 @@
   .social-icons a:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
   }
-  .visitor-counter {
+  .counter-number {
     margin-top: 1rem;
     padding: 0.3rem 1rem;
     background: #112240;
