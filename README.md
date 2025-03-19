@@ -53,6 +53,11 @@ Push changes to trigger deployment.
 
 📈 Features
 
-✅ Serverless Architecture (No EC2!)✅ CloudFront Caching & Performance Optimization✅ Automated CI/CD Pipeline✅ Secure & Scalable Design✅ Custom Domain with HTTPS✅ DynamoDB-based Visitor Counter
+✅ Serverless Architecture (No EC2!)
+✅ CloudFront Caching & Performance Optimization
+✅ Automated CI/CD Pipeline
+✅ Secure & Scalable Design
+✅ Custom Domain with HTTPS
+✅ DynamoDB-based Visitor Counter
 
 🚧 Upcoming: Infrastructure as Code (IaC) Implementation 🚧
