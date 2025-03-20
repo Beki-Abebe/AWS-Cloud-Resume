@@ -1,4 +1,4 @@
-# 🌥️ Cloud Resume Challenge  
+![cloudresume](https://github.com/user-attachments/assets/f43ec398-3703-4fdb-bf88-b040366bdeb6)# 🌥️ Cloud Resume Challenge  
 
 Welcome to my **Cloud Resume Challenge** repository! This project is part of the **Cloud Resume Challenge**, an initiative designed to demonstrate full-stack cloud skills using AWS.  
 
@@ -11,6 +11,7 @@ This project showcases my resume as a **serverless, cloud-native web application
 ---
 
 ## 🏗️ Architecture  
+![Uploading cloudresume.jpg…]()
 
 ### **Tech Stack:**  
 - **Frontend:** Static website hosted on **Amazon S3** with **CloudFront** for CDN.  
