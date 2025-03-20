@@ -60,4 +60,15 @@ Push changes to trigger deployment.
 ✅ Custom Domain with HTTPS
 ✅ DynamoDB-based Visitor Counter
 
-🚧 Upcoming: Infrastructure as Code (IaC) Implementation 🚧
+Infrastructure as Code (IaC) - Backend Implementation 🚀
+
+This repository contains the Infrastructure as Code (IaC) implementation for the backend, automating the provisioning and management of cloud resources.
+📌 Features
+     Automated Infrastructure Deployment using IaC
+     Scalable and Cost-Effective architecture
+     Modular and Reusable Codebase
+     Secure and Reliable cloud environment
+
+🛠️ Technologies Used
+    Terraform 
+    AWS Services: DynamoDB, Lambda, IAM Role
