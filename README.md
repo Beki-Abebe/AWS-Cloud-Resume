@@ -6,7 +6,7 @@ Welcome to my **Cloud Resume Challenge** repository! This project is part of the
 
 ## 🚀 Overview  
 
-This project showcases my resume as a **serverless, cloud-native web application** hosted on **Amazon S3**, with a backend powered by **AWS Lambda, API Gateway, and DynamoDB**. The infrastructure is managed using **Infrastructure as Code (IaC)**, and **CI/CD automation** is implemented for seamless updates.  
+This project showcases my resume as a **serverless, cloud-native web application** hosted on **Amazon S3 with Amazon CloudFront for CDN**, with a backend powered by **AWS Lambda and DynamoDB**. The infrastructure is managed using **Infrastructure as Code (IaC)**, and **CI/CD automation** is implemented for seamless updates.  
 
 ---
 
@@ -16,11 +16,11 @@ This project showcases my resume as a **serverless, cloud-native web application
 
 ### **Tech Stack:**  
 - **Frontend:** Static website hosted on **Amazon S3** with **CloudFront** for CDN.  
-- **Backend:** API powered by **AWS Lambda (Python)** and **API Gateway**.  
+- **Backend:** API powered by **AWS Lambda (Python)**.  
 - **Database:** Visitor counter stored in **Amazon DynamoDB**.  
-- **Infrastructure as Code:** **Terraform / AWS CDK** for infrastructure deployment.  
+- **Infrastructure as Code:** **Terraform** for infrastructure deployment.  
 - **CI/CD Pipeline:** **GitHub Actions** for automated deployments.  
-- **Domain & SSL:** Custom domain with **Amazon Route 53** and HTTPS via **ACM (AWS Certificate Manager)**.  
+- **Domain & SSL:** Custom domain with **From Hostinger** and HTTPS via **ACM (AWS Certificate Manager)**.  
 
 ---
 
